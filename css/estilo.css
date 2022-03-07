@@ -1,0 +1,126 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #efefef;
+    
+}
+.contenido{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+    
+
+.header{
+    background-color: #364552;
+    color: white;
+    position: fixed;
+    padding: 2.5rem 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+}    
+
+.header a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo-nav-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    
+        
+}
+    
+    .navegacion ul li{
+        display: inline-block;
+        
+        
+    }
+    
+        .navegacion ul a{
+            display: block;
+            text-align: right;
+            padding: 4rem 1rem 0rem 0rem;
+            color: rgb(255, 255, 255);
+            transition: all 0.4s linear;
+            
+    
+        }
+    
+            .navegacion ul a:hover{
+                background:#4a4a4a;    
+            }
+img#logo{
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: -150px;
+    position: fixed;
+}
+
+.contenedor{
+    width: 420px;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+section article{
+    transition: all 0.3s ease;
+    background-color: #ffff;
+    margin: 1rem 0;
+    border-radius: 1.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0, 3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+
+section article img{
+    margin-left: .5rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 1rem;
+    color: #fff;
+
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
